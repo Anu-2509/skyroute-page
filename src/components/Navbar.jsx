@@ -1,38 +1,3 @@
-// import React from 'react'
-
-// const Navbar = () => {
-//   return (
-//     // <header className='shadow-md bg-white sticky top-0 z-50'>
-//     <header className='w-full h-[500px] bg-red-100 rounded-b-4xl'>
-//         <div className='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
-//           {/* Logo or Brand Name */}
-//            <div className='text-xl font-bold text-indigo-600'>Shop</div>
-//            {/* Nav Links */}
-//            <nav className='space-x-6 hidden md:block'>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Home</a>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Categories</a>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Shop</a>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Gallery</a>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Services</a>
-//               <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Contact Us</a>
-//            </nav>
-//            {/* Right Side: Search + Buttons */}
-//            <div className='flex items-center space-x-4'>
-//              <input 
-//                 type="text" 
-//                 placeholder='Search' 
-//                 className='border rounded-full px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500'
-//              />
-//              <button className='text-sm px-4 py-1 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition'>Sign Up</button>
-//              <button className='text-sm px-4 py-1 border border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-50 transition'>Log In</button>
-//            </div>
-//         </div>
-//     </header>
-       
-//   )
-// }
-
-// export default Navbar
 import React from 'react'
 
 const Navbar = () => {
