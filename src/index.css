@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Brusher';
+  src: url('./assets/fonts/Brusher.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat\ Extra\ Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
