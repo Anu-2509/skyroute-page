@@ -4,13 +4,13 @@ const ProductCard = ({title, image, description, price}) => {
   return (
     <div>
        <div className=' '>
-        <img src={image} alt="" className='object-cover w-[300px] h-[350px] rounded-4xl' />
+        <img src={image} alt="" className='object-cover w-full  h-[300px] sm:h-[350px] rounded-4xl' />
        </div>
        <div className='flex justify-between mt-1 p-2'>
-         <h3 className='text-xl font-semibold'>{title}</h3>
-         <p className='text-xl font-semibold'>${price}</p>
+         <h3 className='text-lg sm:text-xl font-semibold'>{title}</h3>
+         <p className='text-lg sm:text-xl font-semibold'>${price}</p>
        </div>
-       <p className='font-md text-center text-md'>{description}</p>
+       <p className='text-sm sm:text-md text-center'>{description}</p>
     </div>
   )
 }
